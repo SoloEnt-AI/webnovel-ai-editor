@@ -1,0 +1,4 @@
+# Merge this table into your Codex config. Keep existing servers.
+# After adding, open Plugins -> MCP in Codex and click Authenticate to sign in with soloent.ai.
+[mcp_servers.soloent-insight]
+url = "https://api.soloent.ai/mcp"

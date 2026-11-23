@@ -1,0 +1,11 @@
+interface:
+  display_name: "WebNovel AI Editor"
+  short_description: "Review an outline and opening with SoloEnt Insight market data"
+  default_prompt: "Use $webnovel-ai-editor to check Insight MCP and review my outline and first three chapters for contract readiness."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "soloent-insight"
+      description: "SoloEnt Insight MCP (authorize via soloent.ai OAuth with reference:read access)"
+      transport: "streamable_http"
+      url: "https://api.soloent.ai/mcp"
